@@ -4,7 +4,7 @@ This API provides a simple interface to detect whether an uploaded image contain
 ## 📦 Project Structure
 - `main.py` – Entry point for the FastAPI application.
 - `router.py` – Defines the prediction route.
-- `snake_classifier.py` – Contains the logic for preprocessing and predicting images.
+- `model/snake_classifier.py` – Contains the logic for preprocessing and predicting images.
 - `model/snake_classifier_mobilenet.h5` – Trained Keras model used for classification.
 
 ## 🚀 Features
